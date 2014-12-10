@@ -1,9 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{6FF361C4-4CB7-F1BB-4B40-4DF5A22BD370}") = "SilentCyborgProject", "Assembly-CSharp-firstpass.csproj", "{0EC9D5B4-0561-E9A3-B821-84A6CA43BC8F}"
-EndProject
-Project("{6FF361C4-4CB7-F1BB-4B40-4DF5A22BD370}") = "SilentCyborgProject", "Assembly-UnityScript-firstpass.unityproj", "{927DE71A-CD28-6B80-EFF2-8C2F4499C732}"
+Project("{6FF361C4-4CB7-F1BB-4B40-4DF5A22BD370}") = "SilentCyborgProject", "Assembly-CSharp.csproj", "{1513BA5A-C203-3647-4629-0E03D8518ED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,19 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0EC9D5B4-0561-E9A3-B821-84A6CA43BC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0EC9D5B4-0561-E9A3-B821-84A6CA43BC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0EC9D5B4-0561-E9A3-B821-84A6CA43BC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0EC9D5B4-0561-E9A3-B821-84A6CA43BC8F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{927DE71A-CD28-6B80-EFF2-8C2F4499C732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{927DE71A-CD28-6B80-EFF2-8C2F4499C732}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{927DE71A-CD28-6B80-EFF2-8C2F4499C732}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{927DE71A-CD28-6B80-EFF2-8C2F4499C732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1513BA5A-C203-3647-4629-0E03D8518ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1513BA5A-C203-3647-4629-0E03D8518ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1513BA5A-C203-3647-4629-0E03D8518ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1513BA5A-C203-3647-4629-0E03D8518ED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+							GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -41,4 +35,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
