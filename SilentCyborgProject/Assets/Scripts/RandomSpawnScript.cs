@@ -9,6 +9,7 @@ public class RandomSpawnScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+<<<<<<< HEAD
 		float XPosition = Random.Range (XRandomMin, XRandomMax);
 		float ZPosition = Random.Range (ZRandomMin, ZRandomMax);
 		Vector3 PlayerPosition = new Vector3(XPosition, 0f, ZPosition);
@@ -17,6 +18,14 @@ public class RandomSpawnScript : MonoBehaviour {
 
 		GameObject Player = Instantiate(Resources.Load("Prefabs/Player"),PlayerPosition,Quaternion.identity) as GameObject;
 		}
+=======
+Public var XRangeMin = -5.0f
+Public var XRangeMax = 5.0f
+Public var ZRangeMin = -5.0f
+Public var ZRangeMax = 5.0f
+		transform.position = new Vector3 (Random.Range (XRangeMin, XRangeMax), 1.05f, Random.Range (ZRangeMin, ZRangeMax));
+	}
+>>>>>>> origin/master
 	
 	// Update is called once per frame
 	void Update () {
