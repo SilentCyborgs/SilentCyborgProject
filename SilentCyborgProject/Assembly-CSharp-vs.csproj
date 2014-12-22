@@ -46,7 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Character Scripts\RandomSpawnScript.cs" />
+     <Compile Include="Assets\Scripts\Building Scripts\EmptyScript0.cs" />
+     <Compile Include="Assets\Scripts\Character Scripts\EmptyScript1.cs" />
+     <Compile Include="Assets\Scripts\Nature Scripts\EmptyScript2.cs" />
+     <Compile Include="Assets\Scripts\Terrain Scripts\RandomSpawnScript.cs" />
+     <Compile Include="Assets\Scripts\Vehicle Scripts\EmptyScript4.cs" />
+     <Compile Include="Assets\Scripts\Weapon Scripts\EmptyScript5.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
