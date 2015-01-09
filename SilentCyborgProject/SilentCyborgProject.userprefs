@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Terrain Scripts\RandomSpawnScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SkyProject System\SkyProject\Scripts\SkyProject\SkyProject.js">
     <Files>
+      <File FileName="Assets\SkyProject System\SkyProject\Scripts\SkyProject\SkyProject.js" Line="2677" Column="1" />
       <File FileName="Assets\Scripts\Terrain Scripts\RandomSpawnScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Building Scripts\EmptyScript0.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

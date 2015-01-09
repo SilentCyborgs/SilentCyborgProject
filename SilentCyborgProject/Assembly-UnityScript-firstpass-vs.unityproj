@@ -46,11 +46,24 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
-     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
-     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
-     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
-     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <Compile Include="Assets\Standard Assets\SkyProject System\Editor\SkyProjectEditor.js" />
+     <Compile Include="Assets\Standard Assets\SkyProject System\SkyProject\Scenes\Assets (Scene)\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
+     <Compile Include="Assets\Standard Assets\SkyProject System\SkyProject\Scenes\Assets (Scene)\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <Compile Include="Assets\Standard Assets\SkyProject System\SkyProject\Scenes\Assets (Scene)\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
+     <Compile Include="Assets\Standard Assets\SkyProject System\SkyProject\Scripts\Examples\ActiveRain.js" />
+     <Compile Include="Assets\Standard Assets\SkyProject System\SkyProject\Scripts\Examples\CalendarGUI.js" />
+     <Compile Include="Assets\Standard Assets\SkyProject System\SkyProject\Scripts\Examples\ChangeSkyColors.js" />
+     <Compile Include="Assets\Standard Assets\SkyProject System\SkyProject\Scripts\Examples\ExampleManager.js" />
+     <Compile Include="Assets\Standard Assets\SkyProject System\SkyProject\Scripts\SkyProject\SkyProject.js" />
+     <Compile Include="Assets\Standard Assets\SkyProject System\SkyProject\Scripts\Utilities\Billboard.js" />
+     <Compile Include="Assets\Standard Assets\SkyProject System\SkyProject\Scripts\Utilities\RenderHaloBehindMoon.js" />
+     <None Include="Assets\Standard Assets\SkyProject System\SkyProject\Scenes\Assets (Scene)\Shaders\WaterTransparent.shader" />
+     <None Include="Assets\Standard Assets\SkyProject System\SkyProject\Scenes\Assets (Scene)\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\SkyProject System\SkyProject\Shaders\Moon.shader" />
+     <None Include="Assets\Standard Assets\SkyProject System\SkyProject\Shaders\Particle Alpha Blend.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets\SkyProject System\SkyProject\Shaders\SkySphere Shader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>

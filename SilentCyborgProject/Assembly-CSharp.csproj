@@ -47,14 +47,20 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Building Scripts\EmptyScript0.cs" />
-     <Compile Include="Assets\Scripts\Character Scripts\EmptyScript1.cs" />
+     <Compile Include="Assets\Scripts\Character Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\Nature Scripts\EmptyScript2.cs" />
      <Compile Include="Assets\Scripts\Terrain Scripts\RandomSpawnScript.cs" />
      <Compile Include="Assets\Scripts\Vehicle Scripts\EmptyScript4.cs" />
      <Compile Include="Assets\Scripts\Weapon Scripts\EmptyScript5.cs" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{0EC9D5B4-0561-E9A3-B821-84A6CA43BC8F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
