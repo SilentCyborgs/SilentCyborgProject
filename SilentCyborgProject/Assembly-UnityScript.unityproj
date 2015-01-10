@@ -46,18 +46,31 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Character Scripts\CharacterMotor.js" />
-     <Compile Include="Assets\Scripts\Character Scripts\FPSInputController.js" />
-     <Compile Include="Assets\Scripts\Character Scripts\PlatformInputController.js" />
+     <Compile Include="Assets\DayNightCycle\TOD\TOD.js" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\Shaders\AspectSphereShader.shader" />
+     <None Include="Assets\DayNightCycle\TOD\shader\SkyboxBlend.shader" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\Shaders\VisualSensorLineShader.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\Shaders\NavMeshContourShader.shader" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\Shaders\WaypointShader.shader" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\Shaders\VisualSensorRingShader.shader" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\ReleaseNotes.txt" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\Shaders\AspectRingShader.shader" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\Shaders\NavMeshColliderShader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="RAIN">
+ <HintPath>C:/Users/scott/Documents/Local Git Repo/SilentCyborgProject/SilentCyborgProject/Assets/Standard Assets/AI Rain/RAIN/RAIN.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{0EC9D5B4-0561-E9A3-B821-84A6CA43BC8F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-Boo-firstpass.booproj">
+      <Project>{037C8649-98CF-3CFB-3E63-9D5FABCD3405}</Project>      <Name>Assembly-Boo-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
       <Project>{927DE71A-CD28-6B80-EFF2-8C2F4499C732}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>

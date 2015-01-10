@@ -46,12 +46,24 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
-     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <Compile Include="Assets\Standard Assets\AI Rain\RAIN\Editor\ScriptTemplates\ActionTemplate_JS.js" />
+     <Compile Include="Assets\Standard Assets\AI Rain\RAIN\Editor\ScriptTemplates\DecisionTemplate_JS.js" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\Shaders\AspectSphereShader.shader" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\Shaders\VisualSensorLineShader.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
-     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\Shaders\NavMeshContourShader.shader" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\Shaders\WaypointShader.shader" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
+     <None Include="Assets\Assets\MyWater\WaterFX\FX-Water.shader" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\Shaders\VisualSensorRingShader.shader" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\ReleaseNotes.txt" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\Shaders\AspectRingShader.shader" />
+     <None Include="Assets\Standard Assets\AI Rain\RAIN\Editor\Shaders\NavMeshColliderShader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="RAIN">
+ <HintPath>C:/Users/scott/Documents/Local Git Repo/SilentCyborgProject/SilentCyborgProject/Assets/Standard Assets/AI Rain/RAIN/RAIN.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

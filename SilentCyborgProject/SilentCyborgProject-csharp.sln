@@ -5,6 +5,8 @@ Project("{6FF361C4-4CB7-F1BB-4B40-4DF5A22BD370}") = "SilentCyborgProject", "Asse
 EndProject
 Project("{6FF361C4-4CB7-F1BB-4B40-4DF5A22BD370}") = "SilentCyborgProject", "Assembly-CSharp-vs.csproj", "{1513BA5A-C203-3647-4629-0E03D8518ED5}"
 EndProject
+Project("{6FF361C4-4CB7-F1BB-4B40-4DF5A22BD370}") = "SilentCyborgProject", "Assembly-CSharp-Editor-vs.csproj", "{5A121AC2-3888-7BF7-F026-855AEEB71766}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{1513BA5A-C203-3647-4629-0E03D8518ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1513BA5A-C203-3647-4629-0E03D8518ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1513BA5A-C203-3647-4629-0E03D8518ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A121AC2-3888-7BF7-F026-855AEEB71766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A121AC2-3888-7BF7-F026-855AEEB71766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A121AC2-3888-7BF7-F026-855AEEB71766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A121AC2-3888-7BF7-F026-855AEEB71766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																																								GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																																																																	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
