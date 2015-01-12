@@ -60,7 +60,8 @@
      <Compile Include="Assets\Scripts\Character Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\Character Scripts\PlatformInputController.cs" />
      <Compile Include="Assets\Scripts\Nature Scripts\DayNightCycle.cs" />
-     <Compile Include="Assets\Scripts\Nature Scripts\EmptyScript2.cs" />
+     <Compile Include="Assets\Scripts\Nature Scripts\GameTime.cs" />
+     <Compile Include="Assets\Scripts\Nature Scripts\Sun.cs" />
      <Compile Include="Assets\Scripts\Terrain Scripts\RandomSpawnScript.cs" />
      <Compile Include="Assets\Scripts\Vehicle Scripts\EmptyScript4.cs" />
      <Compile Include="Assets\Scripts\Weapon Scripts\EmptyScript5.cs" />

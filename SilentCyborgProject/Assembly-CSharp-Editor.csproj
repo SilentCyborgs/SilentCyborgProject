@@ -68,14 +68,14 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.Graphs">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
  <Reference Include="RAIN">
  <HintPath>C:/Users/scott/Documents/Local Git Repo/SilentCyborgProject/SilentCyborgProject/Assets/Standard Assets/AI Rain/RAIN/RAIN.dll</HintPath>
  </Reference>
  <Reference Include="RAINEditor">
  <HintPath>C:/Users/scott/Documents/Local Git Repo/SilentCyborgProject/SilentCyborgProject/Assets/Standard Assets/AI Rain/RAIN/Editor/RAINEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EmptyScript2 : MonoBehaviour {
+public class GameTime : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
