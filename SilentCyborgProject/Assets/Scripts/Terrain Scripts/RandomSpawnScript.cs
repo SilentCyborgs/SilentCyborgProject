@@ -12,7 +12,7 @@ public class RandomSpawnScript : MonoBehaviour {
 		if (PlayerSpawned != true) {
 						float XPosition = Random.Range (XRandomMin, XRandomMax);
 						float ZPosition = Random.Range (ZRandomMin, ZRandomMax);
-						Vector3 PlayerPosition = new Vector3 (XPosition, 0f, ZPosition);
+						Vector3 PlayerPosition = new Vector3 (ZPosition, 0f, XPosition);
 						PlayerPosition.y = Terrain.activeTerrain.SampleHeight (PlayerPosition) + Terrain.activeTerrain.GetPosition ().y;
 						PlayerPosition.y += 1.2f;
 						GameObject Player = Instantiate (Resources.Load ("Prefabs/Player"), PlayerPosition, Quaternion.identity) as GameObject;
